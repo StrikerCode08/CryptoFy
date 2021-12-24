@@ -22,7 +22,7 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
-              <Route exact path="/home" element={<Homepage />} />
+              <Route exact path="/" element={<Homepage />} />
               <Route exact path="/exchanges" element={<Exchanges />} />
               <Route
                 exact
